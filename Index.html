@@ -1,0 +1,436 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+<link rel="stylesheet" href="style.css">
+<body>
+    
+
+    <!---navbar Start--->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            </ul>
+            &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+            <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+              <label for="darkModeToggle"><i class="fas fa-moon"></i></label>
+          </div>
+          
+          
+          
+           
+          </div>
+        </div>
+      </nav>
+       <!---navbar end--->
+
+
+  <!---home section start--->
+<div class="home" id="home">
+    <div class="content">
+        <h5>Welcome To World</h5>
+        <h1>Visit&nbsp;<span class="changecontent"></span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, unde.</p>
+   <a href="#book">Book Place</a>
+   
+    </div>
+</div>
+
+ <!---home section end--->
+
+ <!---section booking start--->
+
+<section class="book" id="book">
+<div class="container">
+
+  <div class="main-text">
+    <h2><span>B</span>ook</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 py-3 py-md-0">
+      <div class="card">
+        <img src="images/Capture.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="col-md-6 py-3 py-md-0">
+      <form action="#">
+        <input type="text" class="form-control" placeholder="Where To" required><br>
+        <input type="text" class="form-control" placeholder="How Many" required><br>
+        <select name="" id="" class="form-control">
+          <option value="">India</option>
+          <option value="">Pakistan</option>
+          <option value="">Turkey</option>
+          <option value="">Finland</option>
+          <option value="">Swezerland</option>
+      </select> <br>
+        <input type="date" class="form-control" placeholder="Leaving" required><br>
+  <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+    <input type="submit" value="Book Now" class="submit" required>  
+</form>
+    </div>
+  </div>
+</div>
+</section>
+ <!---section booking end--->
+
+ <!---section packages start--->
+<section class="packages" id="packages">
+
+  <div class="container">
+
+    <div class="main-text">
+      <h2><span>P</span>ackages</h2>
+    </div>
+    <div class="row" style="margin-top: 30px; margin-left:60px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/hlo.jpg" alt="">
+          <div class="card-body">
+            <h3>Turkey</h3>
+            <h6>Lorem ipsum, dolor sit amet consectetur adipisicin.Laboriosam recusandae voluptatem pariatur facere.</h6>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h7>Price: <strike>$500</strike></h7><br><br>
+            
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      <div class="col-md-3 py-3 py-md-0 ">
+        <div class="card">
+          <img src="images/i.jpg" alt="">
+          <div class="card-body">
+            <h3>Spain</h3>
+            <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias quia delectus, voluptatum!</h6>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h7>Price: <strike>$500</strike></h7><br><br>
+            
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/dd.jpg" alt="">
+          <div class="card-body">
+            <h3>Oman</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.Excepturi quia explicabo deserunt? Blandi,nobis.
+            </h6>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h7>Price: <strike>$500</strike></h7><br><br>
+            
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="row" style="margin-top: 30px; margin-left:60px;">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/hlo.jpg" alt="">
+          <div class="card-body">
+            <h3>Germany</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi obcaecati a eveniet iusto eligendi.</h6>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h7>Price: <strike>$555</strike></h7><br><br>
+            
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      
+      <div class="col-md-3 py-3 py-md-0 ">
+        <div class="card">
+          <img src="images/21.jpg" alt="">
+          <div class="card-body">
+            <h3>Pakistan</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia  consectetur adip molestiae minus.doloribus?</h6>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h7>Price: <strike>$500</strike></h7><br><br>
+            
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;   &nbsp;
+      
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="images/t.jpg" alt="">
+          <div class="card-body">
+            <h3>FinLand</h3>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aperiam delectus assumenda unde et! Veritatis!</h6>
+            <div class="star">
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star checked"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h7>Price: <strike>$500</strike></h7><br><br>
+            
+            <a href="#book">Book Now</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+ <!---section packages end--->
+
+ <!---section services start--->
+
+<section class="services" id="services">
+<div class="container">
+  <div class="main-text">
+    <h2><span>S</span>ervices</h2>
+  </div>
+  <div class="row" style="margin-top:30px ;">
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <i class="fas fa-hotel"></i>
+
+        <h3>&nbsp;&nbsp; Affordable Hotel</h3>
+        <p class=" text-lg-center">Lorem, ipsum dolor sit amet consectetur
+           adipisicing elit. At, consequatur!</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <i class="fas fa-utensils"></i>
+
+        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Food and Drink</h3>
+        <p class=" text-lg-center">Lorem, ipsum dolor sit amet consectetur
+           adipisicing elit. At, consequatur!</p>
+    </div>
+  </div>
+
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <i class="fas fa-bullhorn"></i>
+
+        <h3>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Safty Guide</h3>
+        <p class=" text-lg-center">Lorem, ipsum dolor sit amet consectetur
+           adipisicing elit. At, consequatur!</p>
+    </div>
+  </div>
+  </div>
+
+  <div class="row" style="margin-top:30px ;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <i class="fas fa-globe-asia"></i>
+  
+          <h3>&nbsp;&nbsp;Around the world</h3>
+          <p class=" text-lg-center">Lorem, ipsum dolor sit amet consectetur
+             adipisicing elit. At, consequatur!</p>
+      </div>
+    </div>
+  
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <i class="fas fa-plane"></i>
+  
+          <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fastest Travel</h3>
+          <p class=" text-lg-center">Lorem, ipsum dolor sit amet consectetur
+             adipisicing elit. At, consequatur!</p>
+      </div>
+    </div>
+  
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <i class="fas fa-hiking"></i>
+  
+          <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Adventure</h3>
+          <p class=" text-lg-center">Lorem, ipsum dolor sit amet consectetur
+             adipisicing elit. At, consequatur!</p>
+      </div>
+    </div>
+    </div>
+</div>
+</section>
+ <!---section services end--->
+
+ <!---section gallery start--->
+
+ <section class="gallery" id="gallery">
+<div class="container">
+  <div class="main-text">
+    <h2><span>G</span>allery</h2>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="images/u.jpg" alt="" height="230px">
+    </div>
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="images/uuu.jpg" alt="" height="230px">
+    </div>
+  </div> <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="images/o.jpg" alt="" height="230px">
+    </div>
+</div>
+
+</div>
+<div class="row" style="margin-top: 30px;">
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="images/ggg.jpg" alt="" height="230px">
+    </div>
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="images/ll.jpg" alt="" height="230px">
+    </div>
+  </div> <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="images/g.jpg" alt="" height="230px">
+    </div>
+</div>
+
+</div>
+ </section>
+ <!---section gallery end--->
+
+
+ <!---about start--->
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="main-text">
+      <h2>About <span>Us</span></h2>
+    </div>
+    <div class="row" style="margin-top: 50px;">
+<div class="col-md-6 py-3 py-md-0">
+  <div class="card">
+  <img src="images/m.png" alt="">
+</div>
+    </div>
+    <div class="col-md-6 py-3 py-md-0">
+      <h2>
+How many Travel Agency work
+      </h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+        Facere illo pariatur earum, porro animi voluptas ab iure. Molestiae beatae reiciendis 
+         quia atque sequi sed maiores, ab harum labore delectus
+         cupiditate? Ab expedita beatae recusandae.</p>
+    <button id="about-btn"> Read more...</button>
+    </div>
+  </div>
+  </div>
+</section>
+ <!---about end--->
+
+
+ <!---footer start--->  
+<footer id="footer">
+<h2><span>T</span>ravel</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit,  beatae quam repellendus!</p>
+  <div class="social-links">
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-facebook"></i> 
+     <i class="fa-brands fa-instagram"></i>
+     <i class="fa-brands fa-youtube"></i> 
+      <i class="fa-brands fa-linkedin"></i>
+     
+      <i class="fa-brands fa-pinterest-p"></i>
+  </div>
+  <div class="cridit">
+    <p>Designed by <a href="#">Iqraaa Rajpoot</a></p>
+  </div>
+  <div class="copyright">
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &copy;Copyright Iqraaa Rajpoot. All Rights Reserved</p>
+  </div>
+</footer>
+ <!---footer end--->
+
+ <script src="dark-mode.js"></script> 
+
+ </body>
+ </html>
